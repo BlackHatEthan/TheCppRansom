@@ -1,32 +1,41 @@
-# Prerequisites
-*.d
+# Visual Studio stuff
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+*.opendb
+*.VC.db
+*.cache
+*.pdb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Build output
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.obj
+*.res
+*.log
+*.idb
+*.ilk
+*.aps
+*.ncb
+
+# Temporary/backup files
+*.bak
+*.tmp
+*.suo
+*.ipch
+
+# Resource compiler intermediate files
+*.res
+*.rc.*
+
+# Ignore icon/image cache
+*.ico
+
+# Ignore CMake if used
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
